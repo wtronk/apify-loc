@@ -47,7 +47,7 @@ The actor pushes the results to the default Apify Dataset. The output will be a 
 ## 🔑 API Access
 
 To use this actor effectively, you may need a Jeleo API key. 
-1. Obtain your key from the Jeleo dashboard.
+1. Obtain your key from the Jeleo: https://www.jeleo.zone.id
 2. Enter it in the input field `apiKey` OR
 3. Configure it as a secret environment variable `JELEO_API_KEY` for secure operations.
 
@@ -60,4 +60,4 @@ To use this actor effectively, you may need a Jeleo API key.
 
 ---
 
-*Verified and maintained by the Jeleo Team.*
+*Verified and maintained by the [Jeleo Team](https://www.jeleo.zone.id/)*
