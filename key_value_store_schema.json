@@ -1,0 +1,17 @@
+{
+    "actorSpecification": 1,
+    "title": "Jeleo Reverse Geocoding Key-Value Store",
+    "description": "Key-value store layout",
+    "collections": {
+        "input": {
+            "title": "Input",
+            "description": "Input parameters for the actor run.",
+            "keyPrefix": "INPUT"
+        },
+        "errors": {
+            "title": "Errors",
+            "description": "Error logs or reports.",
+            "keyPrefix": "ERROR"
+        }
+    }
+}

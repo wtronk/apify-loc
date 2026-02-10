@@ -1,0 +1,32 @@
+{
+    "title": "Jeleo Reverse Geocoding",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "lat": {
+            "title": "Latitude",
+            "type": "number",
+            "description": "The latitude of the location to reverse geocode.",
+            "editor": "number",
+            "example": 53.239879
+        },
+        "lng": {
+            "title": "Longitude",
+            "type": "number",
+            "description": "The longitude of the location to reverse geocode.",
+            "editor": "number",
+            "example": -115.216766
+        },
+        "apiKey": {
+            "title": "API Key",
+            "type": "string",
+            "description": "Your Jeleo API Key. (Optional if configured via environment variables)",
+            "editor": "textfield",
+            "isSecret": true
+        }
+    },
+    "required": [
+        "lat",
+        "lng"
+    ]
+}

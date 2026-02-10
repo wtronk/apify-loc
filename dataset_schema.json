@@ -1,0 +1,85 @@
+{
+    "actorSpecification": 1,
+    "title": "Jeleo Reverse Geocoding Dataset",
+    "description": "Results of the reverse geocoding operation stored in the dataset.",
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "description": "Tabular view of the geocoding results, showing key location details.",
+            "transformation": {
+                "fields": [
+                    "country",
+                    "country_code_a2",
+                    "name",
+                    "name_type",
+                    "code3166",
+                    "economy_rank",
+                    "income_rank"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "country": {
+                        "label": "Country"
+                    },
+                    "country_code_a2": {
+                        "label": "Code"
+                    },
+                    "name": {
+                        "label": "Location Name"
+                    },
+                    "name_type": {
+                        "label": "Type"
+                    },
+                    "code3166": {
+                        "label": "Region Code"
+                    },
+                    "economy_rank": {
+                        "label": "Economy Rank"
+                    },
+                    "income_rank": {
+                        "label": "Income Rank"
+                    }
+                }
+            }
+        }
+    },
+    "items": {
+        "type": "object",
+        "required": [
+            "country",
+            "country_code_a2"
+        ],
+        "properties": {
+            "code3166": {
+                "type": "string",
+                "description": "ISO 3166-2 region code (e.g., CA-AB)"
+            },
+            "country": {
+                "type": "string",
+                "description": "Country name (e.g., Canada)"
+            },
+            "country_code_a2": {
+                "type": "string",
+                "description": "ISO 3166-1 alpha-2 country code (e.g., CA)"
+            },
+            "economy_rank": {
+                "type": "string",
+                "description": "Economy rank"
+            },
+            "income_rank": {
+                "type": "string",
+                "description": "Income rank"
+            },
+            "name": {
+                "type": "string",
+                "description": "Name of the location (e.g., Alberta)"
+            },
+            "name_type": {
+                "type": "string",
+                "description": "Type of the location (e.g., Province)"
+            }
+        }
+    }
+}
