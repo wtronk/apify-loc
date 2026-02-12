@@ -44,42 +44,5 @@
                 }
             }
         }
-    },
-    "items": {
-        "type": "object",
-        "required": [
-            "country",
-            "country_code_a2"
-        ],
-        "properties": {
-            "code3166": {
-                "type": "string",
-                "description": "ISO 3166-2 region code (e.g., CA-AB)"
-            },
-            "country": {
-                "type": "string",
-                "description": "Country name (e.g., Canada)"
-            },
-            "country_code_a2": {
-                "type": "string",
-                "description": "ISO 3166-1 alpha-2 country code (e.g., CA)"
-            },
-            "economy_rank": {
-                "type": "string",
-                "description": "Economy rank"
-            },
-            "income_rank": {
-                "type": "string",
-                "description": "Income rank"
-            },
-            "name": {
-                "type": "string",
-                "description": "Name of the location (e.g., Alberta)"
-            },
-            "name_type": {
-                "type": "string",
-                "description": "Type of the location (e.g., Province)"
-            }
-        }
     }
 }

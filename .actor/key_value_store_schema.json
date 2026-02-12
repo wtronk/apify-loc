@@ -1,5 +1,5 @@
 {
-    "actorSpecification": 1,
+    "actorKeyValueStoreSchemaVersion": 1,
     "title": "Jeleo Reverse Geocoding Key-Value Store",
     "description": "Key-value store layout",
     "collections": {
