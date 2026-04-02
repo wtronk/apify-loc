@@ -8,14 +8,16 @@
             "type": "number",
             "description": "The latitude of the location to reverse geocode.",
             "editor": "number",
-            "example": 53.239879
+            "example": 53.239879,
+            "default": 53.239879
         },
         "lng": {
             "title": "Longitude",
             "type": "number",
             "description": "The longitude of the location to reverse geocode.",
             "editor": "number",
-            "example": -115.216766
+            "example": -115.216766,
+            "default": -115.216766
         },
         "apiKey": {
             "title": "API Key",
